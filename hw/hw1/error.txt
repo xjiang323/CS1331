@@ -1,0 +1,35 @@
+Bad1.java:
+1: error: class BAD1 is public, should be declared in a file named BAD1.java
+public class BAD1 {
+       ^
+1 error
+
+error occurs at compile time
+
+reason: the class name bad1 is in capital format
+
+
+Bad2.java:
+This homework is due January Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.String
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4302)
+	at java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2793)
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2747)
+	at java.util.Formatter.format(Formatter.java:2520)
+	at java.io.PrintStream.format(PrintStream.java:970)
+	at java.io.PrintStream.printf(PrintStream.java:871)
+	at Bad2.main(Bad2.java:7)
+
+error occurs at running time
+
+reason: the output format of day and year is inccorrect
+
+
+Bad3.java:
+Bad3.java:9: error: reached end of file while parsing
+    }
+     ^
+1 error
+
+error occurs at compile time
+
+reason: lack a "}" of the class
